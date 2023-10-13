@@ -3359,6 +3359,7 @@ ul.dropdown li.divider {
   list-style-type: none;
   counter-increment: list;
   position: relative;
+  text-align: "justify";
 }
 .linenums ol li:after {
   content: counter(list);
@@ -3367,7 +3368,7 @@ ul.dropdown li.divider {
   border-right: 1px solid #e5e5e5;
   padding-right: 9px;
   width: 2.45em;
-  text-align: right;
+  text-align: "justify";
   color: rgba(0, 0, 0, 0.3);
   font-size: 12px;
 }

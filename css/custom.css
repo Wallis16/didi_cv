@@ -22,7 +22,6 @@ a:hover {
   transition: all 0.2s ease-in-out; }
 
 .container {
-  margin: auto;
   max-width: 662px;
   padding: 0 20px; }
 
@@ -80,16 +79,12 @@ a:hover {
     color: #4d4d4d; }
 
 .section.second {
-  margin-bottom: 90px; }
+  margin-bottom: 300px; }
 .section .container {
   position: relative; }
-  .section .container:after {
-    position: absolute;
-    content: url(../img/separator.png);
-    left: 20px; }
   .section .container h1 {
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 300px;
     position: relative; }
 
 .intro {
@@ -112,7 +107,8 @@ a:hover {
     font-size: 47px; }
 
 .work .work-list {
-  margin-left: 0px; }
+  margin-left: 0px;
+  text-align: "justify"; }
   .work .work-list li {
     list-style: none;
     font-size: 0.9375em;
